@@ -1,7 +1,4 @@
-# DEOR Uniswap liquidity staking
-
-This project is copied from [sashimiswap](https://github.com/SashimiProject/sashimiswap) and modified to work with
-non-mintable tokens.
+# POLKalink Uniswap staking
 
 # Quickstart
 
@@ -146,3 +143,4 @@ The `frontend` folder contains the frontend application that displays the uniswa
 
 _Note that the frontend is specifically styled and configured for DEOR. You need to modify it to use it for a
 different project._  
+# polkalink-staking
