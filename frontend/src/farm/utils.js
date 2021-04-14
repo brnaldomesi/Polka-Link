@@ -57,7 +57,7 @@ export const getFarms = (farm) => {
           tokenAddress,
           tokenSymbol,
           tokenContract,
-          earnToken: 'deor',
+          earnToken: 'poll',
           earnTokenAddress: farm.contracts.erc20.options.address,
           icon,
           pool,

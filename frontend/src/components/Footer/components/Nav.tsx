@@ -25,7 +25,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href={`https://${ethscanType}etherscan.io/address/${contractAddressesTemp.farm[chainId]}#code`}
       >
-        Farm Contract
+        Stake Contract
       </StyledLink>
       <StyledLink
         target="_blank"

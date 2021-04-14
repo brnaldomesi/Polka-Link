@@ -20,7 +20,7 @@ import Spacer from '../../Spacer'
 import Value from '../../Value'
 import {getEthChainInfo} from "../../../utils/getEthChainInfo";
 
-import imageDEOR from '../../../assets/img/logo.svg'
+import imagePOLL from '../../../assets/img/polkalinkstake_logo.png'
 
 const {
   ethscanType
@@ -47,11 +47,11 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
         <div style={{ display: 'flex' }}>
           <StyledBalanceWrapper>
             <CardIcon>
-              <img src={imageDEOR} height="100" style={{ marginTop: -4 }} />
+              <img src={imagePOLL} height="100" style={{ marginTop: -4 }} />
             </CardIcon>
             <StyledBalance>
               <Value value={getBalanceNumber(erc20Balance, 10)} />
-              <Label text="DEOR ERC20 Balance" />
+              <Label text="POLL ERC20 Balance" />
             </StyledBalance>
           </StyledBalanceWrapper>
         </div>

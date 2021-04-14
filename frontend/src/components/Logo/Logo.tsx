@@ -2,13 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/polkalinkstake_logo.png'
 
 const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
-      <img src={logo} height="100" style={{ marginTop: -4 }} />
-      <strong>DEOR</strong> Liquidity Mining
+      <img src={logo} height="80" style={{ marginTop: -4 }} />
+      {/* <strong>POLL</strong> Liquidity Mining */}
     </StyledLogo>
   )
 }

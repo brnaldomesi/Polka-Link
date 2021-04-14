@@ -1,2 +1,2 @@
-export const BASIC_TOKEN = 'DEOR';
-export const GITHUB = 'https://github.com/computercybersecurity/DEORPOOL';
+export const BASIC_TOKEN = 'POLL';
+export const GITHUB = 'https://github.com/univdev99/polkalink-staking';
