@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 // Farm distributes the ERC20 rewards based on staked LP to each user.
 //
 // Cloned from https://github.com/SashimiProject/sashimiswap/blob/master/contracts/MasterChef.sol
-// Modified by DEOR to work for non-mintable ERC20.
+// Modified by POLL to work for non-mintable ERC20.
 contract Farm is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;

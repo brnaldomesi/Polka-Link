@@ -68,7 +68,7 @@ npm run migrate -- --network mainnet
 npm run verify -- --network mainnet
 ```
 
-The account that is used to create the Farm contract should have a sufficient amount of (DEOR) ERC20 to fund the
+The account that is used to create the Farm contract should have a sufficient amount of (POLL) ERC20 to fund the
 contract. Alternatively; to manually fund, remove the 'fund' property from the configuration.
 
 # How it works
@@ -141,6 +141,6 @@ possible to do a zero withdraw to just receive the pending reward.
 
 The `frontend` folder contains the frontend application that displays the uniswap pairs and allows users to participate.
 
-_Note that the frontend is specifically styled and configured for DEOR. You need to modify it to use it for a
+_Note that the frontend is specifically styled and configured for POLL. You need to modify it to use it for a
 different project._  
 # polkalink-staking

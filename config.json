@@ -1,18 +1,18 @@
 {
   "default": {
     "erc20": {
-      "name": "DEOR Mock Token",
-      "symbol": "DEOR",
-      "decimals": 10,
-      "supply": "100000000000"
+      "name": "Polkalink Mock Token",
+      "symbol": "Poll",
+      "decimals": 18,
+      "supply": "150000000000000000000000"
     },
-    "rewardPerBlock": "10000000",
+    "rewardPerBlock": "",
     "delay": 30,
-    "fund": "50000000000",
-    "lp": [
+    "fund": "65000",
+    "staking": [
       {
-        "name": "DEOR LP Mock",
-        "symbol": "LP DEOR",
+        "name": "Polkalink Mock Token",
+        "symbol": "Poll",
         "decimals": 18,
         "allocPoint": 120
       }
@@ -20,28 +20,28 @@
   },
   "kovan": {
     "erc20": {
-      "address": "0xAdA673d512415c98e04C068A3b50022B2696cCCE"
+      "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976"
     },
-    "rewardPerBlock": "1000000000",
+    "rewardPerBlock": "156000000000000000",
     "delay": 30,
-    "fund": "100000000000000000",
+    "fund": "65000000000000000000000",
     "lp": [
       {
-        "address": "0x2e4c125f3c2baefd71c9100601caa13a198cc008",
+        "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976",
         "allocPoint": 120
       }
     ]
   },
   "mainnet": {
     "erc20": {
-      "address": "0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3"
+      "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976"
     },
     "rewardPerBlock": "40000000000",
     "delay": 30,
-    "fund": "100000000000000000",
+    "fund": "65000",
     "lp": [
       {
-        "address": "0x856e90282961c0e7f6693fd2f62b35d5df9783cf",
+        "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976",
         "allocPoint": 120
       }
     ]

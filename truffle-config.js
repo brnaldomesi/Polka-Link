@@ -20,7 +20,9 @@ module.exports = {
                     `https://mainnet.infura.io/v3/${process.env.INFURA_ID}`
                 )
             },
-            network_id: 1
+            network_id: 1,
+            gas: 12450000,
+            gasPrice: 200000000000,
         },
         kovan: {
             provider: function() {
