@@ -4,7 +4,7 @@ export const contractAddresses = {
     1: '0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3', // mainnet staking poll
   },
   farm: {
-    42: '0x09789f6dcf25828fee3b917abcb9ed5aef30acdd', // kovan farm contract address 
+    42: '0xf71476A14c6D97eDea6DA4E18E68457a2A80544C', // kovan farm contract address 
     1: '0xbfd181cb0c8e23b65805dded3863dce6517402a7', // mainnet
   },
   weth: {
@@ -25,7 +25,7 @@ export const supportedPools = [
       1: '0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3', //mainnet
     },
     name: 'POLL-POLL',
-    symbol: 'POLL-POLL UNI-V2 LP',
+    symbol: 'POLL-POLL',
     tokenSymbol: 'POLL',
     icon: '',
     pool: '100%',

@@ -8,7 +8,7 @@
     },
     "rewardPerBlock": "",
     "delay": 30,
-    "fund": "65000",
+    "fund": "45000000000000000000000",
     "staking": [
       {
         "name": "Polkalink Mock Token",
@@ -22,9 +22,9 @@
     "erc20": {
       "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976"
     },
-    "rewardPerBlock": "156000000000000000",
+    "rewardPerBlock": "92000000000000000",
     "delay": 30,
-    "fund": "65000000000000000000000",
+    "fund": "45000000000000000000000",
     "lp": [
       {
         "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976",
@@ -36,9 +36,9 @@
     "erc20": {
       "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976"
     },
-    "rewardPerBlock": "40000000000",
+    "rewardPerBlock": "92000000000000000",
     "delay": 30,
-    "fund": "65000",
+    "fund": "45000000000000000000000",
     "lp": [
       {
         "address": "0x9c55b6e6de44b9d3d3d551c0cbb0ee1c12a4b976",
